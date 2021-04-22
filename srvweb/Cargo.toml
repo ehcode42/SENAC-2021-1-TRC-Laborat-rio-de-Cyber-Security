@@ -1,0 +1,11 @@
+[package]
+name = "srvweb"
+version = "0.1.0"
+authors = ["Eduardo Heredia <contato@ehcode42.net.br>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+tokio = { version = "1.5.0", features = ["full"] }
+warp = "0.3.1"
